@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MCM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="name_app_header">Mobile Cash Management</string>
+
+    <string name="current_month">--- Monthly ---</string>
+
+    <string name="total_expense_monthly">Total Expense : </string>
+    <string name="total_expense_monthly_plan">Expense Target : </string>
+
+    <string name="welcome_msg">Welcome</string>
+    <string name="title_activity_expense">ExpenseActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: User Area Setting -->
+    <string name="userarea_username">Username</string>
+    <string name="userarea_email">Email</string>
+    <string name="userarea_shared">Shared Token</string>
+    <string name="userarea_usershared">User List</string>
+    <string name="userarea_btn_changepass">Change Password</string>
+
+
+    <!-- TODO: Change Password -->
+    <string name="change_password">New Passord</string>
+    <string name="confirm_password">Confirm Password</string>
+
+
+    <!-- TODO: Expense Area Setting -->
+    <string name="exparea_date">Date Transaction</string>
+    <string name="exparea_name">Expense Name</string>
+    <string name="exparea_amount">Amount</string>
+
+
+    <!-- TODO: Budget Area -->
+    <string name="areabudget_date">This Month</string>
+    <!--<string name="budget_notify">Note : if you already entered a budget for the same month it will be replaced with the new one</string>-->
+    <string name="budget_amount">Amount</string>
+
+    <string name="budget_exist">You already have plan for this month, insert new one will replace the old one</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Global Button -->
+    <string name="btn_saver">Save</string>
+    <string name="btn_cancel">Cancel</string>
+
+
+</resources>

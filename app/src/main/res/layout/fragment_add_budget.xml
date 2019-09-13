@@ -1,0 +1,158 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acronix.danachos.mcm.fragments.AddBudgetFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_gravity="center|top"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tvBudgetExist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="@string/budget_exist"
+            android:visibility="invisible"/>
+
+        <Button
+
+            android:background="@drawable/rounded_shape"
+            android:textColor="#1e1e1e"
+            android:id="@+id/btnPreviousBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous \nBudget" />
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:gravity="left|center_vertical"
+
+                android:text="This Month"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etMonthBudget"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:inputType="date"
+                android:layout_weight="0.3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:hint="Budget"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:gravity="left|center_vertical"
+
+                android:text="Amount"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etAmountBudget"
+                android:inputType="number"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:hint="Amount"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+
+            <Button
+                android:background="@drawable/rounded_shape2"
+                android:id="@+id/btnCancelBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel" />
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+
+            <Button
+
+                android:background="@drawable/rounded_shape"
+                android:textColor="#1e1e1e"
+                android:id="@+id/btnSaveBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

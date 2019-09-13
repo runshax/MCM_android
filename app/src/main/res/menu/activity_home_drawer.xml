@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnAddExpense"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Add Expense" />
+        <item
+            android:id="@+id/btnAddBudget"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Budget Monthly Target" />
+        <item
+            android:id="@+id/btnReportExpense"
+            android:icon="@android:drawable/sym_contact_card"
+            android:title="Report Expense" />
+    </group>
+
+    <item android:title="User Area">
+
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/btnSettingUser"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Setting User Account" />
+                <item
+                    android:id="@+id/btnLogout"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="Logout" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send"
+                    android:visible="false" />
+            </group>
+
+
+        </menu>
+    </item>
+
+</menu>

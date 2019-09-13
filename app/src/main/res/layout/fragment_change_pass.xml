@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acronix.danachos.mcm.fragments.ChangePassFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_gravity="center|top"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center_vertical"
+
+                android:text="@string/change_password"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etNewPassChangePass"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:inputType="textPassword"
+                android:hint="new password"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:gravity="left|center_vertical"
+
+                android:text="@string/confirm_password"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etConfirmPassChangePass"
+                android:inputType="textPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:hint="confirm password"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+
+            <Button
+                android:background="@drawable/rounded_shape2"
+                android:id="@+id/btnCancelChangePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cancel" />
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+
+            <Button
+
+                android:background="@drawable/rounded_shape"
+                android:textColor="#1e1e1e"
+                android:id="@+id/btnSaveChangePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_saver" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
